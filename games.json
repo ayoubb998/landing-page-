@@ -33,6 +33,14 @@
       
     }
   ]
+  // Force "Five Nights at Freddy’s" to be the featured game
+const featured = games.find(g => g.title.toLowerCase().includes("five nights"));
+if (featured) {
+  // Move it to first position
+  games.splice(games.indexOf(featured), 1);
+  games.unshift(featured);
 }
+}
+
 
 
