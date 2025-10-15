@@ -1,46 +1,35 @@
 {
+  "featured": {
+    "id": 1,
+    "title": "Five Nights at Freddy's",
+    "description": "The classic horror survival game — survive five nights with the animatronics!",
+    "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png",
+    "downloadLink": "#"
+  },
   "games": [
     {
-      "title": "Game One",
-      "description": "Placeholder for testing layout.",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/1.png"
-    },
-      {
-      "title": "Five",
-      "description": "A cool modern hoerror game",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png"
+      "id": 1,
+      "title": "Five Nights at Freddy's",
+      "description": "Horror survival with iconic animatronics. Classic and terrifying.",
+      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png",
+      "downloadLink": "#",
+      "detailsLink": "#"
     },
     {
-      "title": "PUBG",
-      "description": "Battle royale game full of action.",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/PUBG.jpg"
-    },
-    {
-      "title": "Among Us",
-      "description": "Find the impostor and save your crew!",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/amoung%20us.jpg"
-    },
-    {
-      "title": "Call of Duty",
+      "id": 2,
+      "title": "Minecraft",
+      "description": "Create, explore, and survive in a blocky infinite world.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
+      "downloadLink": "#",
+      "detailsLink": "#"
+    }
+     {
+      "id": 3,
+      "title": "Call of duty",
       "description": "Experience epic multiplayer warfare.",
       "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/call%20of%20dutty.jpg"
-    },
-  
-    {
-       "title": "GTA SA",
-      "description": "Explore the open world of San Andreas.",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/GTASABOX.jpg"
-      
+      "downloadLink": "#",
+      "detailsLink": "#"
     }
   ]
-  // Force "Five Nights at Freddy’s" to be the featured game
-const featured = games.find(g => g.title.toLowerCase().includes("five nights"));
-if (featured) {
-  // Move it to first position
-  games.splice(games.indexOf(featured), 1);
-  games.unshift(featured);
 }
-}
-
-
-
