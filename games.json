@@ -1,0 +1,34 @@
+{
+  "games": [
+    {
+      "title": "GTA SA",
+      "description": "Explore the open world of San Andreas.",
+      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/GTASABOX.jpg"
+    },
+    {
+      "title": "PUBG",
+      "description": "Battle royale game full of action.",
+      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/PUBG.jpg"
+    },
+    {
+      "title": "Among Us",
+      "description": "Find the impostor and save your crew!",
+      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/amoung%20us.jpg"
+    },
+    {
+      "title": "Call of Duty",
+      "description": "Experience epic multiplayer warfare.",
+      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/call%20of%20dutty.jpg"
+    },
+    {
+      "title": "Five",
+      "description": "A cool modern game landing example.",
+      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png"
+    },
+    {
+      "title": "Game One",
+      "description": "Placeholder for testing layout.",
+      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/1.png"
+    }
+  ]
+}
