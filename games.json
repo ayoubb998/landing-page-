@@ -1,9 +1,14 @@
 {
   "games": [
     {
-      "title": "GTA SA",
-      "description": "Explore the open world of San Andreas.",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/GTASABOX.jpg"
+      "title": "Game One",
+      "description": "Placeholder for testing layout.",
+      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/1.png"
+    },
+      {
+      "title": "Five",
+      "description": "A cool modern hoerror game",
+      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png"
     },
     {
       "title": "PUBG",
@@ -20,16 +25,14 @@
       "description": "Experience epic multiplayer warfare.",
       "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/call%20of%20dutty.jpg"
     },
+  
     {
-      "title": "Five",
-      "description": "A cool modern hoerror game",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png"
-    },
-    {
-      "title": "Game One",
-      "description": "Placeholder for testing layout.",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/1.png"
+       "title": "GTA SA",
+      "description": "Explore the open world of San Andreas.",
+      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/GTASABOX.jpg"
+      
     }
   ]
 }
+
 
