@@ -19,15 +19,15 @@
       "id": 2,
       "title": "Minecraft",
       "description": "Create, explore, and survive in a blocky infinite world.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
+      "image": "https://raw.githubusercontent.com/ayoubb998/your-repo/main/minecraft.jpg",
       "downloadLink": "#",
       "detailsLink": "#"
-    }
-     {
+    },
+    {
       "id": 3,
-      "title": "Call of duty",
-      "description": "Experience epic multiplayer warfare.",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/call%20of%20dutty.jpg"
+      "title": "GTA: San Andreas",
+      "description": "Action-packed open-world adventure in Los Santos.",
+      "image": "https://raw.githubusercontent.com/ayoubb998/your-repo/main/gta.jpg",
       "downloadLink": "#",
       "detailsLink": "#"
     }
