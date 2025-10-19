@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Premium Android Games</title>
+  <meta name="description" content="Premium Android Games - APK downloads" />
+  <style>
+    :root{--bg:#0b0b10;--card:#0f1220;--muted:#9aa0b4;--accent:#7b3cff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);color:#e9eef8;-webkit-font-smoothing:antialiased}
+    .wrap{max-width:1100px;margin:18px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:52px;height:52px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#5926d6);display:flex;align-items:center;justify-content:center;font-weight:800;color:white}
+    nav a{color:#dfe7ff;text-decoration:none;margin-left:18px;font-weight:600}
+    .toggle{cursor:pointer;border:1px solid rgba(255,255,255,0.04);padding:8px 10px;border-radius:8px;background:transparent}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:20px;margin-top:20px;align-items:start}
+    .hero-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:22px;border-radius:12px}
+    .carousel{height:260px;border-radius:10px;overflow:hidden;position:relative}
+    .carousel img{width:100%;height:100%;object-fit:cover;border-radius:10px}
+    .carousel .dotwrap{position:absolute;left:12px;bottom:12px;display:flex;gap:8px}
+    .dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.25)}
+    .right-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:18px;border-radius:12px;text-align:center}
+    .screenshot{width:250px;height:250px;border-radius:12px;overflow:hidden;margin:0 auto 12px}
+    .screenshot img{width:100%;height:100%;object-fit:cover}
+    .section{margin-top:28px}
+    h2{margin:0 0 12px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+    .card{background:linear-gradient(180deg,#0f1220, #0b0b10);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.03);display:flex;flex-direction:column;gap:10px}
+    .card img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+    .card h3{margin:0;font-size:16px}
+    .card p{margin:0;color:var(--muted);font-size:13px}
+    .actions{display:flex;gap:8px;margin-top:auto}
+    .btn{flex:1;padding:10px;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    .btn-download{background:var(--accent);color:#fff}
+    .btn-details{background:transparent;border:1px solid rgba(255,255,255,0.04);color:#fff}
+    footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
+    @media(max-width:900px){.hero{grid-template-columns:1fr}nav a{margin-left:12px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">PG</div>
+        <div>
+          <div style="font-weight:800;font-size:18px">Premium Android Games</div>
+          <div style="font-size:13px;color:var(--muted)">Premium APKs — Hosted downloads</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px">
+        <nav>
+          <a href="#">Home</a>
+          <a href="#categories">Categories</a>
+          <a href="#trending">Trending</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="toggle" id="modeToggle">Light</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-card">
+         <div class="carousel" id="carousel">
+  <video autoplay muted loop playsinline poster="https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png" style="width:100%;height:100%;object-fit:cover;border-radius:10px;">
+    <source src="https://raw.githubusercontent.com/ayoubb998/landing-page-/main/fivenights.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="dotwrap"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+</div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-top:12px">
+            <div>
+              <h2>Featured: Five Nights at  Freddy’s</h2>
+              <p style="color:var(--muted);margin-top:6px">The classic horror survival game — survive five nights with the animatronics!</p>
+            </div>
+            <div style="text-align:right;color:var(--muted)">Updated: <strong id="updated">--</strong></div>
+          </div>
+        </div>
+
+        <aside class="right-card">
+          <div class="screenshot">
+            <img src="https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png" alt="Freddy">
+          </div>
+          <h3 style="margin:6px 0">Five Nights at  Freddy’s</h3>
+          <p style="color:var(--muted);margin:0 0 10px">Stay alive in the dark as you monitor cameras and survive animatronic horrors.</p>
+          <a class="btn btn-download" href="">Download APK</a>
+        </aside>
+      </section>
+
+      <section class="section">
+        <h2 id="topgames">Top Premium Games</h2>
+        <div class="grid">
+          <div class="card">
+            <img src="https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png" alt="Five Nights at  Freddy’s">
+            <h3>Five Nights at  Freddy’s</h3>
+            <p class="meta">Horror survival with iconic animatronics. Classic and terrifying.</p>
+            <div class="actions">
+              <a class="btn btn-download" href="#">Download</a>
+              <a class="btn btn-details" href="#">Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Mancraft.png" alt="Minecraft">
+            <h3>Minecraft</h3>
+            <p class="meta">Create, explore, and survive in a blocky infinite world.</p>
+            <div class="actions"><a class="btn btn-download" href="#">Download</a><a class="btn btn-details" href="#">Details</a></div>
+          </div>
+          <div class="card">
+            <img src="https://raw.githubusercontent.com/ayoubb998/landing-page-/main/GTASABOX.jpg" alt="GTA San Andreas">
+            <h3>GTA: San Andreas</h3>
+            <p class="meta">Action-packed open-world adventure in Los Santos.</p>
+            <div class="actions"><a class="btn btn-download" href="#">Download</a><a class="btn btn-details" href="#">Details</a></div>
+          </div>
+          <div class="card">
+            <img src="https://raw.githubusercontent.com/ayoubb998/landing-page-/main/PUBG.jpg" alt="PUBG Mobile">
+            <h3>PUBG Mobile</h3>
+            <p class="meta">Battle Royale shooter with realistic combat and survival.</p>
+            <div class="actions"><a class="btn btn-download" href="#">Download</a><a class="btn btn-details" href="#">Details</a></div>
+          </div>
+          <div class="card">
+            <img src="https://raw.githubusercontent.com/ayoubb998/landing-page-/main/amoung%20us.jpg" alt="Among Us">
+            <h3>Among Us</h3>
+            <p class="meta">Find the imposter in this social deduction multiplayer hit.</p>
+            <div class="actions"><a class="btn btn-download" href="#">Download</a><a class="btn btn-details" href="#">Details</a></div>
+          </div>
+          <div class="card">
+            <img src="https://raw.githubusercontent.com/ayoubb998/landing-page-/main/call%20of%20duttyt.jpg" alt="Call of Duty Mobile">
+            <h3>Call of Duty: Mobile</h3>
+            <p class="meta">Epic FPS action with multiplayer and battle royale modes.</p>
+            <div class="actions"><a class="btn btn-download" href="#">Download</a><a class="btn btn-details" href="#">Details</a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer><p>Premium Android Games — host your APKs responsibly. Do not distribute copyrighted apps without permission.</p></footer>
+  </div>
+  <script>
+    const carouselImages = [
+      "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png",
+      "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png",
+      "https://upload.wikimedia.org/wikipedia/en/2/26/Five_Nights_at's_Freddy%27s_2_cover.jpg"
+    ];
+    let idx=0; const imgEl=document.getElementById('carouselImg');
+    setInterval(()=>{ idx=(idx+1)%carouselImages.length; imgEl.src=carouselImages[idx]; },3600);
+    const modeToggle = document.getElementById('modeToggle');
+    let light=false;
+    modeToggle.addEventListener('click', ()=>{
+      light = !light;
+      document.body.style.background = light ? '#f5f7fb' : 'var(--bg)';
+      document.body.style.color = light ? '#0b0b10' : '#e9eef8';
+      modeToggle.textContent = light ? 'Dark' : 'Light';
+    });
+    document.getElementById('updated').textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>
