@@ -1,36 +1,3 @@
 {
-  "featured": {
-    "id": 1,
-    "title": "Five Nights at Freddy's",
-    "description": "The classic horror survival game — survive five nights with the animatronics!",
-    "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png",
-    "downloadLink": "#"
-  },
-  "games": [
-    {
-      "id": 1,
-      "title": "Five Nights at Freddy's",
-      "description": "Horror survival with iconic animatronics. Classic and terrifying.",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/Five%20.png",
-      "downloadLink": "#",
-      "detailsLink": "#"
-    },
-    {
-      "id": 2,
-      "title": "Minecraft",
-      "description": "Create, explore, and survive in a blocky infinite world.",
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
-      "downloadLink": "#",
-      "detailsLink": "#"
-    }
-     {
-      "id": 3,
-      "title": "Call of duty",
-      "description": "Experience epic multiplayer warfare.",
-      "image": "https://raw.githubusercontent.com/ayoubb998/landing-page-/main/call%20of%20dutty.jpg"
-      "downloadLink": "#",
-      "detailsLink": "#"
-    }
-  ]
+  "locker_link": "https://tilavede.gamer.gd/cl/i7dh1"
 }
-
